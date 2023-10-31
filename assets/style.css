@@ -9,14 +9,25 @@ h1 {
     margin-left: 50px;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 header {
     border: solid black;
     background-color: white;
     
 }
 
-h3 {
-    text-decoration: underline;
+nav {
+    float: right;
+    margin-right: 50px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 .avitar {
@@ -24,8 +35,7 @@ h3 {
     width: 50%;
     margin-bottom: 25px;
     padding-left: 350px;
-   /* background-size: cover;
-    background-position: center;*/
+   
 }
 .contents {
     border: solid black;
@@ -57,13 +67,3 @@ footer {
     justify-content: center;
 }
 
-nav {
-    float: right;
-    margin-right: 50px;
-    
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
